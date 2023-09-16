@@ -1,0 +1,14 @@
+.pageheader__container {
+  height: 200px;
+  background: linear-gradient(90deg, #01b4e4, #90cea1 64%);
+}
+
+.pageheader__container__text {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 80px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 900;
+}

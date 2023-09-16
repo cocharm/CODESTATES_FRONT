@@ -1,0 +1,17 @@
+.login_container {
+  margin: 60px auto;
+  width: 1000px;
+  height: 600px;
+}
+
+.login_info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.login_form_section {
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}

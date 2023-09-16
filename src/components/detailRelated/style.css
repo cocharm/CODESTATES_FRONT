@@ -1,0 +1,23 @@
+.related_movie_list {
+  display: flex;
+  flex-direction: wrap;
+  gap: 18px;
+}
+
+.related_movie_item {
+  width: 186px;
+  height: 346px;
+  
+}
+
+
+.related_movie_item img {
+  width: 186px;
+  height: 346px;
+  border-radius: 6px;
+}
+
+.related_movie_item p {
+  margin-top: 10px;
+  font-weight: 700;
+}

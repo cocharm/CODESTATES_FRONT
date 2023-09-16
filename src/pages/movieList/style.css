@@ -1,0 +1,10 @@
+.movielist__container {
+  width: 1800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

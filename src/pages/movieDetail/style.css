@@ -1,0 +1,127 @@
+.detail_container {
+  width: 1200px;
+  height: 100vh;
+  margin: 60px auto;
+}
+
+.detail_info_container {
+  display: flex;
+  border: 1px solid #dddddd;
+}
+
+/* .detail_poster {
+  
+} */
+
+.detail_poster img {
+  width: 358px;
+  height: 592px;
+  border-radius: 6px;
+}
+
+.detail_info {
+  margin-left: 30px;
+}
+
+.detail_info_title {
+
+}
+
+.detail_info_title p {
+  color: #0d253f;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.detail_info_genres {
+  display: flex;
+  width: max-content;
+  margin-top: 20px;
+  color: #64c2dc;
+  border-radius: 20px;
+  border: 2px solid #64c2dc;
+  cursor: pointer;
+  background-color: #0d253f;
+}
+
+.genre_item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.detail_info_plot {
+  margin-top: 20px;
+}
+
+.plot_title {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.plot_data {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.detail_info_actors {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.movieHeader {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.moviePosterInfo {
+  display: flex;
+  padding: 15px;
+}
+
+.movieInfo img {
+  grid-area;
+  width: auto;
+  height: auto;
+}
+
+.movie_letters {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.movie_letters_date {
+  background-color:lightgreen
+  
+}
+
+.movie_letters_time {
+  background-color: lightpink
+  
+}
+
+.movie_letters_actors {
+  flex-direction: row;
+}
+
+.movie_letters_story {
+  
+}
+
+.detail_comment {
+  margin-top: 20px;
+}
+
+.detail_related {
+  display: flex;
+  margin-top: 20px;
+  height: 450px;
+  overflow: scroll;
+}

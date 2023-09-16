@@ -1,0 +1,38 @@
+.footer {
+  height: 250px;
+  background-color: lightgray;
+  bottom: 0;
+}
+
+.footer__content-logo {
+  margin: auto;
+  display: block;
+}
+
+.footer__content-menus {
+  text-align: center;
+  flex-direction: column; 
+  /* flex-direction을 쓰려면 display 속성을 꼭 먹여야합니다! */
+  gap: 30px;
+  /* gap 속성을 먹이신 이유가 있으실까요? */
+}
+
+.footer__content-menu {
+  justify-content: center; 
+  gap: 30px;
+  /* gap 속성을 먹이신 이유가 있으실까요? */
+}
+
+.footer__content-menu a { 
+  gap: 30px;
+  flex-direction: column;  
+}
+
+
+a {
+  flex-direction: column;
+}
+/* a링크를 두번 하신 이유가 있으실까요?
+  아마 column 속성이 먹히지 않아서 쓰신거 같은데
+  위에서도 말했듯이 display 속성을 먹이면 원하시는 대로 나올껍니다!
+*/

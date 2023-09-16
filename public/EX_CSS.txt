@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.movie__container {
+  /* width: 100vw; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 30px;
+  /*margin 바깥*/
+}
+
+/* a {
+  width: calc(20% - 12px); 
+} */
+
+.movie__item {
+  box-shadow: 3px 3px 10px 0 #333333;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: calc(20% - 12px); 
+}
+
+/* .movie__item:hover {
+  transform: translate(0, -10px);
+  transition: 1s;
+  cursor: pointer;
+} */
+
+.movie__item img {
+  width: 100%;
+}
+
+.movie__info__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+/* .movie__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.star {
+  color: red;
+} */
+
+/* .loading {
+  font-size: 40px;
+  line-height: 100vh;
+  text-align: center;
+} */
